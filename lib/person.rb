@@ -1,5 +1,8 @@
 class Person
   
+  attr_accessor :name
+end
+  
   def name=(name)
     @name = name
   end
@@ -17,3 +20,4 @@ class Person
     
   end
 end
+
